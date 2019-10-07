@@ -15,7 +15,7 @@ public class ReadWriteUtilities {
             String line;
             while((line = bufferedReader.readLine()) != null) {
                 list.add(line);
-                System.out.println(line);
+//                System.out.println(line);
             }
 
             bufferedReader.close();
@@ -36,6 +36,7 @@ public class ReadWriteUtilities {
             }
 
             bufferedWriter.close();
+            System.out.println("File '" + fileName + "' is written.");
         } catch (Exception e) {
             e.printStackTrace();
         }

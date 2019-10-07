@@ -33,8 +33,11 @@ public class TriangleUtilities {
                     }
 
                 }catch (Exception e){
-                    e.printStackTrace();
+                    System.out.print("Exception for string '" + s + "' : ");
+                    System.out.println(e.getMessage() + ".");
                 }
+            }else{
+                System.out.println("String: '" + s + " ' is ignored.");
             }
         }
 
