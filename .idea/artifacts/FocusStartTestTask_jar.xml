@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FocusStartTestTask:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FocusStartTestTask_jar</output-path>
+    <root id="archive" name="FocusStartTestTask.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="E:/jarFile/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="FocusStartTestTask" />
+    </root>
+  </artifact>
+</component>
