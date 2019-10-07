@@ -5,7 +5,7 @@ import java.util.List;
 public class TriangleUtilities {
     public static String searchForTheLargestTriangle(List<String> list){
         double triangleArea = 0;
-        StringBuffer triangleCoordinates = new StringBuffer("");
+        StringBuilder triangleCoordinates = new StringBuilder("");
 
         for(String s : list){
             String[] tokens = s.split(" ");
